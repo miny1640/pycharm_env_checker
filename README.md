@@ -36,6 +36,7 @@ python pycharm_env_checker.py
 site-packages 경로 목록:
   - C:/Users/사용자명/AppData/Local/Programs/Python/Python311/Lib/site-packages
 
+
 ### 2. 특정 모듈의 설치 경로 확인
 ```bash
 python pycharm_env_checker.py --module <모듈명>
@@ -48,6 +49,7 @@ python pycharm_env_checker.py --module heroes
 ```swift
 Location: C:/Users/사용자명/AppData/Local/Programs/Python/Python311/Lib/site-packages
 
+
 ### 3. .idea 폴더 삭제
 ```bash
 python pycharm_env_checker.py --remove-idea "C:/Users/사용자명/PycharmProjects/project-name"
@@ -55,6 +57,7 @@ python pycharm_env_checker.py --remove-idea "C:/Users/사용자명/PycharmProjec
 ### 4. 모든 기능 한 번에 사용
 ```bash
 python pycharm_env_checker.py --module heroes --remove-idea "C:/Users/사용자명/PycharmProjects/project-name"
+
 
 ---
 
