@@ -29,13 +29,13 @@
 ### 1. 현재 파이썬 환경 확인
 ```bash
 python pycharm_env_checker.py
-
+```
 출력 예시:
 ```swift
 실행 중인 Python 경로: C:/Users/사용자명/AppData/Local/Programs/Python/Python311/python.exe
 site-packages 경로 목록:
   - C:/Users/사용자명/AppData/Local/Programs/Python/Python311/Lib/site-packages
-
+```
 
 ### 2. 특정 모듈의 설치 경로 확인
 ```bash
